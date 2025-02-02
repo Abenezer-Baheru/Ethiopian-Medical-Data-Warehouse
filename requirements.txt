@@ -1,4 +1,12 @@
 pandas 
 numpy 
 matplotlib 
-scikit-learn 
+# scikit-learn 
+telethon
+python-dotenv
+nest_asyncio
+emoji
+sqlalchemy
+psycopg2-binary
+psycopg2
+dbt
