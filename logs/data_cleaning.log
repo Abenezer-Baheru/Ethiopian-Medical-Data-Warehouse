@@ -1,0 +1,5 @@
+2025-02-02 09:16:50,453 - INFO - ✅ CSV file '../src/data/merged_medical_data.csv' loaded successfully.
+2025-02-02 09:16:50,593 - INFO - ✅ CSV file '../src/data/merged_medical_data.csv' loaded successfully.
+2025-02-02 09:21:01,428 - INFO - ✅ CSV file '../src/data/merged_medical_data.csv' loaded successfully.
+2025-02-02 09:21:01,513 - INFO - ✅ CSV file '../src/data/merged_medical_data.csv' loaded successfully.
+2025-02-02 09:21:43,332 - INFO - ✅ Cleaned data saved successfully to '../src/data/cleaned_medical_data.csv'.
