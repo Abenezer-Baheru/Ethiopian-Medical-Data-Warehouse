@@ -1,0 +1,7 @@
+2025-02-02 09:12:33,782 - INFO - ✅ CSV file '../src/data/raw_data/DoctorsET_data.csv' loaded successfully.
+2025-02-02 09:12:33,818 - INFO - ✅ CSV file '../src/data/raw_data/CheMed123_data.csv' loaded successfully.
+2025-02-02 09:12:34,000 - INFO - ✅ CSV file '../src/data/raw_data/lobelia4cosmetics_data.csv' loaded successfully.
+2025-02-02 09:12:34,089 - INFO - ✅ CSV file '../src/data/raw_data/yetenaweg_data.csv' loaded successfully.
+2025-02-02 09:12:34,156 - INFO - ✅ CSV file '../src/data/raw_data/EAHCI_data.csv' loaded successfully.
+2025-02-02 09:12:34,188 - INFO - ✅ All channels merged successfully.
+2025-02-02 09:12:34,266 - INFO - ✅ Merged data saved successfully to '../src/data/merged_medical_data.csv'.
