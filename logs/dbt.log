@@ -1,0 +1,131 @@
+[0m17:55:21.165737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0052447D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A005244FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A005245370>]}
+
+
+============================== 17:55:21.171721 | 88302f36-a388-4f77-8e30-02b4745a7308 ==============================
+[0m17:55:21.171721 [info ] [MainThread]: Running with dbt=1.9.2
+[0m17:55:21.172698 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Abeni\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init dbt_project', 'send_anonymous_usage_stats': 'True'}
+[0m17:55:21.210610 [debug] [MainThread]: Starter project path: E:\OnlineClass\AIM\Ethiopian-Medical-Data-Warehouse\.venv\Lib\site-packages\dbt\include\starter_project
+[0m17:55:21.328270 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:55:21.330265 [info ] [MainThread]: Setting up your profile.
+[0m17:58:42.269011 [info ] [MainThread]: Profile dbt_project written to C:\Users\Abeni\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:58:42.272028 [debug] [MainThread]: Command `dbt init` succeeded at 17:58:42.271005 after 201.32 seconds
+[0m17:58:42.272999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A004DAC350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A004FA12E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A00494E600>]}
+[0m17:58:42.274023 [debug] [MainThread]: Flushing usage events
+[0m17:58:44.062568 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:35:22.804103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5DA994560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5D87273E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5DA7012E0>]}
+
+
+============================== 18:35:22.811057 | 6017e102-e3fa-416b-82aa-695597822970 ==============================
+[0m18:35:22.811057 [info ] [MainThread]: Running with dbt=1.9.2
+[0m18:35:22.813084 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Abeni\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m18:35:22.852872 [info ] [MainThread]: dbt version: 1.9.2
+[0m18:35:22.853874 [info ] [MainThread]: python version: 3.12.7
+[0m18:35:22.855069 [info ] [MainThread]: python path: E:\OnlineClass\AIM\Ethiopian-Medical-Data-Warehouse\.venv\Scripts\python.exe
+[0m18:35:22.856089 [info ] [MainThread]: os info: Windows-10-10.0.18363-SP0
+[0m18:35:22.979882 [info ] [MainThread]: Using profiles dir at C:\Users\Abeni\.dbt
+[0m18:35:22.980912 [info ] [MainThread]: Using profiles.yml file at C:\Users\Abeni\.dbt\profiles.yml
+[0m18:35:22.981877 [info ] [MainThread]: Using dbt_project.yml file at E:\OnlineClass\AIM\Ethiopian-Medical-Data-Warehouse\dbt_project.yml
+[0m18:35:22.983871 [info ] [MainThread]: adapter type: postgres
+[0m18:35:22.983871 [info ] [MainThread]: adapter version: 1.9.0
+[0m18:35:22.984867 [info ] [MainThread]: Configuration:
+[0m18:35:22.985864 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:35:22.985864 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:35:22.986862 [info ] [MainThread]: Required dependencies:
+[0m18:35:22.988858 [debug] [MainThread]: Executing "git --help"
+[0m18:35:23.072873 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:35:23.073903 [debug] [MainThread]: STDERR: "b''"
+[0m18:35:23.074895 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:35:23.074895 [info ] [MainThread]: Connection:
+[0m18:35:23.075865 [info ] [MainThread]:   host: localhost
+[0m18:35:23.076862 [info ] [MainThread]:   port: 5432
+[0m18:35:23.076862 [info ] [MainThread]:   user: postgres
+[0m18:35:23.077890 [info ] [MainThread]:   database: telegram_data
+[0m18:35:23.078871 [info ] [MainThread]:   schema: public
+[0m18:35:23.079893 [info ] [MainThread]:   connect_timeout: 10
+[0m18:35:23.080858 [info ] [MainThread]:   role: None
+[0m18:35:23.081849 [info ] [MainThread]:   search_path: None
+[0m18:35:23.082848 [info ] [MainThread]:   keepalives_idle: 0
+[0m18:35:23.083846 [info ] [MainThread]:   sslmode: None
+[0m18:35:23.084843 [info ] [MainThread]:   sslcert: None
+[0m18:35:23.086837 [info ] [MainThread]:   sslkey: None
+[0m18:35:23.087835 [info ] [MainThread]:   sslrootcert: None
+[0m18:35:23.088834 [info ] [MainThread]:   application_name: dbt
+[0m18:35:23.091824 [info ] [MainThread]:   retries: 1
+[0m18:35:23.094815 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m18:35:23.597491 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m18:35:29.630965 [debug] [MainThread]: Using postgres connection "debug"
+[0m18:35:29.631962 [debug] [MainThread]: On debug: select 1 as id
+[0m18:35:29.631962 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:35:30.789945 [debug] [MainThread]: SQL status: SELECT 1 in 1.157 seconds
+[0m18:35:30.794969 [debug] [MainThread]: On debug: Close
+[0m18:35:30.796962 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:35:30.800907 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:35:30.803899 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <E:\OnlineClass\AIM\Ethiopian-Medical-Data-Warehouse\dbt_project.yml> not found
+
+[0m18:35:30.813877 [debug] [MainThread]: Command `dbt debug` failed at 18:35:30.812877 after 8.62 seconds
+[0m18:35:30.817866 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:35:30.820854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5D8604620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5DAC2A030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5DA06B770>]}
+[0m18:35:30.824845 [debug] [MainThread]: Flushing usage events
+[0m18:35:31.909110 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:31:59.266318 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A47BAA1E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A47429130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A472F86E0>]}
+
+
+============================== 19:31:59.276292 | 5dae9b52-bed6-4c97-95b8-b7862d445f0d ==============================
+[0m19:31:59.276292 [info ] [MainThread]: Running with dbt=1.9.2
+[0m19:31:59.277289 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Abeni\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init dbt_medical_data', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:31:59.348442 [debug] [MainThread]: Starter project path: E:\OnlineClass\AIM\Ethiopian-Medical-Data-Warehouse\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:31:59.780488 [info ] [MainThread]: 
+Your new dbt project "dbt_medical_data" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:31:59.782489 [info ] [MainThread]: Setting up your profile.
+[0m19:34:52.414318 [info ] [MainThread]: Profile dbt_medical_data written to C:\Users\Abeni\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:34:52.418309 [debug] [MainThread]: Command `dbt init` succeeded at 19:34:52.417310 after 173.54 seconds
+[0m19:34:52.419308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A4758C170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A4758F320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028A46FDA720>]}
+[0m19:34:52.420305 [debug] [MainThread]: Flushing usage events
+[0m19:34:55.495587 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:41:52.254143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9EB8D2A20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9EE066CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9EE23B3B0>]}
+
+
+============================== 20:41:52.261123 | aec2614d-b71f-474d-bd06-3690dcd438c1 ==============================
+[0m20:41:52.261123 [info ] [MainThread]: Running with dbt=1.9.2
+[0m20:41:52.281148 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Abeni\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:41:52.282145 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path E:\OnlineClass\AIM\Ethiopian-Medical-Data-Warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:41:52.283144 [debug] [MainThread]: Command `dbt run` failed at 20:41:52.283144 after 0.35 seconds
+[0m20:41:52.284141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9EC3C6FF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9EB8D2A20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9EE393AA0>]}
+[0m20:41:52.286137 [debug] [MainThread]: Flushing usage events
+[0m20:41:56.435667 [debug] [MainThread]: An error was encountered while trying to flush usage events
