@@ -10,3 +10,8 @@ sqlalchemy
 psycopg2-binary
 psycopg2
 dbt
+ultralytics 
+opencv-python 
+torch 
+torchvision 
+tensorflow
