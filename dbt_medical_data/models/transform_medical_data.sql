@@ -9,13 +9,13 @@ WITH processed_data AS (
         channel_username,
         message,
         CASE
-            WHEN message ~ '^[A-Za-z ]+' THEN  -- Checks if the message starts with letters (product name)
-                TRIM(SUBSTRING(message FROM '^(.*?)\s+'))  -- Extracts product name until the first space
+            WHEN message ~ '[A-Za-z]{3,}' THEN  -- Check if message contains a sequence of at least 3 letters (product name)
+                TRIM(SUBSTRING(message FROM '([A-Za-z ]{3,})'))  -- Extract sequence of at least 3 letters or spaces
             ELSE NULL
         END AS product_name,
         CASE
-            WHEN message ~ '\s[0-9]+\s?[A-Za-z]*' THEN  -- Checks if a number followed by text (optional) appears in the message
-                TRIM(SUBSTRING(message FROM '\s([0-9]+\s?[A-Za-z]*)'))  -- Extracts the number and possible text after
+            WHEN message ~ '\d{1,3}\s?[A-Za-z]*' THEN  -- Checks if a number (1-3 digits) followed by optional text appears
+                TRIM(SUBSTRING(message FROM '(\d{1,3}\s?[A-Za-z]*)'))  -- Extracts the number and possible text after
             ELSE NULL
         END AS usage_info,
         cast(message_date as timestamp) as message_date,  -- Ensure message_date is in timestamp format
