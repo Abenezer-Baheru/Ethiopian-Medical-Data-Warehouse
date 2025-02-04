@@ -10,9 +10,9 @@ Build a data warehouse to store data on Ethiopian medical businesses scraped fro
 - Data warehouse design and implementation.
 - Data integration and enrichment.
 
-## Tasks and Steps
+## Tasks and Steps:
 
-### Task 1 - Data Scraping and Collection Pipeline
+### 1 - Data Scraping and Collection Pipeline
 #### Telegram Scraping
 Utilize the Telegram API to extract data from channels:
 - [DoctorsET](https://t.me/DoctorsET)
@@ -32,7 +32,7 @@ Collect images from:
 2. Store raw data temporarily.
 3. Implement logging.
 
-### Task 2 - Data Cleaning and Transformation
+### 2 - Data Cleaning and Transformation
 #### Data Cleaning
 - Remove duplicates.
 - Handle missing values.
@@ -46,7 +46,7 @@ Collect images from:
 3. **Running DBT Models**: Perform the transformations and load the data into the data warehouse.
 4. **Testing and Documentation**: Ensure data quality and provide context for the transformations.
 
-### Task 3 - Object Detection Using YOLO
+### 3 - Object Detection Using YOLO
 #### Setting Up the Environment
 Ensure you have the necessary dependencies installed, including YOLO and its required libraries.
 
@@ -59,7 +59,7 @@ Collect images from the Chemed Telegram Channel and [Lobelia4cosmetics](https://
 #### Processing the Detection Results
 Extract relevant data from the detection results, such as bounding box coordinates, confidence scores, and class labels. Store detection data in a database table. Implement logging to track the detection process, capture errors, and monitor progress.
 
-### Task 4 - Expose the Collected Data Using FastAPI
+### 4 - Expose the Collected Data Using FastAPI
 #### Setting Up the Environment
 Install FastAPI and Uvicorn.
 
