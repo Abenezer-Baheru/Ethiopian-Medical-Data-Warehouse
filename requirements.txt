@@ -15,3 +15,5 @@ opencv-python
 torch 
 torchvision 
 tensorflow
+fastapi 
+uvicorn
